@@ -71,7 +71,7 @@ const Mobiles = () => {
         </div>
 
         <animated.div
-          className="md:col-span-2 lg:col-span-2 xl:col-span-3 grid gap-4 px-5 md:p-8"
+          className="md:col-span-2 xl:col-span-3 lg:col-span-2 xl:col-span-3 grid gap-4 px-5 md:p-8"
           style={props}
         >
           {errorMessage ? (
