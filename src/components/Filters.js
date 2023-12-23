@@ -237,7 +237,7 @@ const Filters = ({ setFilteredMobiles, setSearchTerm }) => {
 
       <div className="flex max-md:justify-end items-center">
         <input
-          className={`border-2 max-w-[60%] border-black rounded-md mr-2 p-1 max-md:hidden`}
+          className={`max-w-[60%] border-black rounded-md mr-2 p-1 max-md:hidden`}
           type="text"
           value={mobileName}
           onChange={handleNameChange}
@@ -251,7 +251,7 @@ const Filters = ({ setFilteredMobiles, setSearchTerm }) => {
 
         {/* Input for screens larger than or equal to md */}
         <input
-          className={`border-2 max-w-[60%] border-black rounded-md mr-2 p-1 ${
+          className={` max-w-[60%] border-black rounded-md mr-2 p-1 ${
             isSearchVisible ? "block" : "hidden"
           }`}
           type="text"
