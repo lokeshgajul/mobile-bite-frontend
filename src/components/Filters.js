@@ -251,7 +251,7 @@ const Filters = ({ setFilteredMobiles, setSearchTerm }) => {
 
         {/* Input for screens larger than or equal to md */}
         <input
-          className={`border-2 max-w-[60%] border-black rounded-md md:bg-blue-200 mr-2 p-1 ${
+          className={`border-2 max-w-[60%] border-black rounded-md mr-2 p-1 ${
             isSearchVisible ? "block" : "hidden"
           }`}
           type="text"
