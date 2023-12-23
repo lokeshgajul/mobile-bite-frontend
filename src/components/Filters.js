@@ -235,7 +235,7 @@ const Filters = ({ setFilteredMobiles, setSearchTerm }) => {
         </p>
       </div>
 
-      <div className="flex justify-end items-center">
+      <div className="flex max-md:justify-end items-center">
         <input
           className={`border-2 max-w-[60%] border-black rounded-md md:bg-blue-200 mr-2 p-1 max-md:hidden`}
           type="text"
