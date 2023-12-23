@@ -61,7 +61,7 @@ const Mobiles = () => {
 
   return (
     <div className="">
-      <div className="grid gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+      <div className="grid gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4">
         <div className="md:bg-slate-300 max-h-full flex flex-col justify-start md:col-span-1 md:block px-7">
           <Filters
             setFilteredMobiles={setFilteredMobiles}
@@ -71,7 +71,7 @@ const Mobiles = () => {
         </div>
 
         <animated.div
-          className="md:col-span-2 xl:col-span-3 lg:col-span-2 xl:col-span-3 grid gap-4 px-5 md:p-8"
+          className="md:col-span-2 xl:col-span-3 lg:col-span-3 xl:col-span-3 grid gap-4 px-5 md:p-8"
           style={props}
         >
           {errorMessage ? (
